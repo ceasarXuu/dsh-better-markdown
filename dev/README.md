@@ -8,7 +8,7 @@ script used to validate the plugin in a real `dsh web` instance.
 | File | Responsibility |
 |---|---|
 | `cdp.mjs` | Minimal CDP client over Node's global `WebSocket`: page creation, `eval`, `click`, `type`, `press`, screenshots, console capture, app-mount waits. |
-| `verify.mjs` | 17 live checks: plugin mount, preview elements, highlight registry, switch persistence, and Markdown rendering in the durable transcript bubble. Writes `docs/preview.png` and `docs/transcript.png`. |
+| `verify.mjs` | 19 live checks: plugin mount, preview elements, highlight registry, switch persistence, and Markdown rendering in the durable transcript bubble. Writes `docs/preview.png` and `docs/transcript.png`. |
 
 ## Manual recipe
 

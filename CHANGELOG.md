@@ -21,5 +21,5 @@
 - **Chat line breaks.** Single newlines outside code/tables/indented blocks
   become CommonMark hard breaks, so multi-line messages keep their shape.
 - **Tests.** 19 offline tests (config folding, HTTP surface, Markdown
-  detection, hard breaks, highlight spans, store/prefs) and an 18-check live
+  detection, hard breaks, highlight spans, store/prefs) and a 19-check live
   CDP verification against DSH 0.2.2-rc.1.

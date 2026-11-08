@@ -148,7 +148,7 @@ verification script. Point a throwaway DSH home at this checkout, boot
 `dsh web` on a non-desktop port, then:
 
 ```sh
-node dev/verify.mjs   # 17 live checks + screenshots into docs/
+node dev/verify.mjs   # 19 live checks + screenshots into docs/
 ```
 
 The dev home, the server log, and the harness never touch the real `~/.dsh`
