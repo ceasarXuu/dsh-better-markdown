@@ -1,0 +1,23 @@
+# Better Markdown — regression test plugin row.
+#
+# The bundle manifest declares `dsh.bundle.patch`; installing the package into
+# a profile (or listing it in `dsh.profile.bundles`) applies this layer. The
+# row below is the plugin itself; every key of `config` is a documented
+# switch, so a profile patch only restates what it changes.
+#
+# Manual profile override example:
+#
+#   - id: better-markdown
+#     name: '@ceasarxuu/dsh-better-markdown'
+#     config:
+#       preview: false        # transcript only
+#       syntax: false         # no in-place highlighting
+- insert:
+    - id: better-markdown
+      name: '@ceasarxuu/dsh-better-markdown'
+      config:
+        enabled: true
+        transcript: true
+        composer: true
+        syntax: true
+        preview: true

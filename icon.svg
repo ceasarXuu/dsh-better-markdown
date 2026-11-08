@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Better Markdown">
+  <rect width="32" height="32" rx="8" fill="#0B0D10"/>
+  <rect x="5.5" y="8.5" width="21" height="15" rx="3.5" fill="none" stroke="#E8EAED" stroke-width="1.6"/>
+  <path d="M9.5 19.5v-7l3 3.6 3-3.6v7" fill="none" stroke="#E8EAED" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M23 12.5v6.4M20.6 16.6l2.4 2.3 2.4-2.3" fill="none" stroke="#2F6BFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "更好的 Markdown",
+    "description": "在会话中直接展示 Markdown：已发送的用户消息按 Markdown 渲染；输入框上方实时预览排版效果，输入框内弱化标记符号；工具条按钮随时开关。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Better Markdown",
+    "description": "Markdown in the conversation itself: sent user messages render as Markdown, the composer shows a live rendered preview with in-place syntax highlighting, and one toolbar switch controls both."
+  }
+}

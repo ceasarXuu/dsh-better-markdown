@@ -1,0 +1,70 @@
+{
+  "name": "@ceasarxuu/dsh-better-markdown",
+  "version": "0.1.0",
+  "description": "Markdown for the DSH conversation: user messages render as Markdown in the transcript, the composer shows a live rendered preview with in-place syntax highlighting, and a toolbar switch controls both.",
+  "type": "module",
+  "license": "MIT",
+  "author": "ceasarXuu",
+  "homepage": "https://github.com/ceasarXuu/dsh-better-markdown#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceasarXuu/dsh-better-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ceasarXuu/dsh-better-markdown/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "markdown",
+    "composer",
+    "preview",
+    "user-message",
+    "gfm"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.5 <0.3.0",
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "host/*.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "locale/*.json",
+    "docs/preview.png",
+    "docs/transcript.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "scripts": {
+    "check": "node --check index.js && node --check host/config.js && node --check host/route.js && node --check client.js",
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm run check && npm test"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "3.18.5"
+  }
+}
